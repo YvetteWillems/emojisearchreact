@@ -22,6 +22,7 @@ class EmojiResults extends PureComponent {
             key={emojiData.title}
             symbol={emojiData.symbol}
             title={emojiData.title}
+            keywords={emojiData.keywords}
           />
         ))}
       </div>
